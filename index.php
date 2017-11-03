@@ -61,6 +61,7 @@ $vinco_automobilis->go();*/
 $db = new Database();
 echo "<br>";
 $user = new User($db);
+$game = new Game($db);
 
 //Application
 
